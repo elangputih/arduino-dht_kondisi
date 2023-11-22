@@ -33,7 +33,7 @@ void loop()
     delay(1000); //Delay 2 sec.
 
     if (temp < 30){ //jika suhu lebih besar dari 80.10
-    Serial.println("Dingin");; //relay menyala
+    Serial.println("Dingin");
  }
     else if( temp > 30){ //jika suhu lebih besar dari 30.10 
     Serial.println("panas");
